@@ -1,11 +1,17 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #0f4a13;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #09442e;
+    --color-button-hover: #2b9387;
     --color-text: #444444;
     --color-white: #FFFFFF;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Estilos generales */
@@ -55,14 +61,14 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "Delius", cursive;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -100,14 +106,14 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Delius", cursive;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de botón */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
+    font-family: "Delius", cursive;
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
@@ -129,7 +135,7 @@ button {
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
+    font-family: "Delius", cursive;
     font-size: 18px;
     margin: 20px 0;
 }
